@@ -660,6 +660,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+  
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -773,6 +777,11 @@ input[type=button] {
       align-items: center;
       flex-flow: row wrap;
     }
+
+    .map figure {
+      padding-bottom: 40%;
+    }
+    
 
     .contact-content {
       display: flex;
