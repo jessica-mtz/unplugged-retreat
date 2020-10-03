@@ -335,8 +335,15 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+  align-content: center;
+}
+
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 
@@ -593,6 +600,10 @@ input[type=button] {
 
     .features .features-item-description {
       width: 60%;
+    }
+
+    .features i {
+      margin-bottom: 30px;
     }
 
     /* Reviews */
