@@ -103,7 +103,8 @@ textarea {
  ul, 
  ol {
    list-style-type: none;
-
+   margin: 0;
+   padding: 0;
  }
 
  a {
@@ -117,6 +118,7 @@ textarea {
    font-size: 1.87em;
    color: #e2e3ed;
    font-weight: 500;
+   margin: 0;
  }
 
  h3, h4 {
@@ -124,6 +126,7 @@ textarea {
    font-size: 1.12em;
    color: #e2e3ed;
    font-weight: 500;
+   margin: 20px 0;
  }
 
  p {
@@ -201,12 +204,17 @@ header nav {
   font-weight: 700;
   text-transform: uppercase;
   background: #202322;
+  font-size: 1.125em;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+ }
+
+ header nav ul li {
+   font-size: 1.125em;
  }
 
  footer {
@@ -234,6 +242,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #527158;
+}
+
+footer social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer p {
@@ -338,7 +354,6 @@ input[type=button] {
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
-  align-content: center;
 }
 
 .features p {
@@ -428,6 +443,10 @@ input[type=button] {
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 /* ==========================================================================
@@ -527,6 +546,16 @@ input[type=button] {
     .content-wrapper {
       max-width: 640px;
       margin: 100px 0;
+    }
+
+    h2 {
+      font-size: 2.25em;
+      line-height: 1.333;
+    }
+
+    h3 {
+      font-size: 1.5em;
+      line-height: 1.25;
     }
 
     /* Header */
@@ -812,7 +841,7 @@ input[type=button] {
     .faq h4,
     .faq p {
       font-size: 1.125em;
-      line-height: 1;
+      line-height: 1.25;
     }
 
 }
